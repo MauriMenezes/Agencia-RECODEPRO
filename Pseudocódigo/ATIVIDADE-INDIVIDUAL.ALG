@@ -8,10 +8,10 @@ Var
    destino:vetor[1..4]de caractere
 
 Inicio
-   destino[1] <- "são paulo"
+   destino[1] <- "sao paulo"
    destino[2] <- "salvador"
    destino[3] <- "Rio de Janeiro"
-   destino[4] <- "Maceió"
+   destino[4] <- "Maceio"
 
    /////
 
@@ -23,7 +23,7 @@ Inicio
    //cadastro//
 
    enquanto verdadeiro faca
-      escreval("---Menu de opções----")
+      escreval("---Menu de opcoes----")
       escreval("1-para consultar destinos disponiveis")
       escreval("2-para se cadastrar")
       escreval("3-para cadastrar o destino")
@@ -33,7 +33,7 @@ Inicio
 
       leia(item)
       limpatela
-      // opção 1 //
+      // opcao 1 //
       se item = 1 entao
          para i <-1 ate 4 faca
             escreval(destino[i])
@@ -42,7 +42,7 @@ Inicio
       fimse
 
 
-      //  opção 2  //
+      //  opcao 2  //
       se item = 2 entao
          escreval("maximo de cadastros : 2")
          escreval("quantos pessoas deseja cadastrar ?")
@@ -70,7 +70,7 @@ Inicio
          fimse
          escreval("selecione a opçao 2 para cadastrar o destino")
       senao
-         // opção 3 //
+         // opcao 3 //
          se item = 3 entao
             escreval("Para essa semana temos Apenas 4 destinos :")
              escreval("digite seu respectivo número ")
@@ -104,7 +104,7 @@ Inicio
             escreval("Destino selecionado!")
 
          senao
-            // opção 4 //
+            // opcao 4 //
             se item = 4 entao
                escreval("Dados do cliente :")
                para i<-1 ate 2 faca

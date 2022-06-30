@@ -27,3 +27,20 @@ p {
 .bg-img {
   background-image: url("/hd-wallpaper-1051850_1920.jpg");
 }
+
+.img-oferta {
+  border-radius: 10px;
+}
+
+.pacotes-banner {
+  background-image: url("../imagens/sea-1377712_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* página destinos */
+.info-card {
+  display: flex;
+  justify-content: space-between;
+}

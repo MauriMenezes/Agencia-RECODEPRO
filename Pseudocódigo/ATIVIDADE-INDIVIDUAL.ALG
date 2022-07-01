@@ -50,7 +50,7 @@ Inicio
                   fimpara
                fimpara
                limpatela
-               escreval("selecione a opcao 2 para cadastrar o destino")
+               escreval("selecione a opcao 3 para cadastrar o destino")
             senao
                se qntCliente = 2 entao
                   para i <- 1 ate qntCliente faca

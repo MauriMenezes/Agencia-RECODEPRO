@@ -3,33 +3,42 @@
   margin: 0;
   padding: 0;
 }
-.bg-color {
-  background-color: rgb(57, 124, 140);
+
+header {
+  background: linear-gradient(#027ffc, #fcfcfc);
+
 }
-body {
-  background: linear-gradient(#f8f9fa 35%, #dfe2e4);
+
+main {
+  background: linear-gradient(#fcfcfc, #dfe2e4);
   /* background-color: #dfe2e4; */
 }
+
 /* header */
 .navbar-nav .nav-item a {
   color: white;
 }
+
 .caixa-logo {
   display: flex;
 }
-.nav .nav-item:hover {
+
+.nav .nav-item .active:hover {
   box-shadow: 4px 4px 4px #ccc;
+  border-radius: 10px;
 }
 
 .itens-link nav .nav .nav-item a.active {
-  color: rgb(66, 117, 143);
+  color: rgb(20, 78, 107);
 }
+
 /* main */
 
 .container-form {
   border-radius: 10px;
   background-color: rgb(116, 191, 229);
 }
+
 p {
   margin-bottom: 0;
 }
@@ -54,6 +63,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 .btn-enviar {
   width: 40%;
   padding: 15px 0;
@@ -67,6 +77,7 @@ p {
   cursor: pointer;
   text-align: center;
 }
+
 .btn-enviar:hover {
   background: rgb(31, 143, 104);
   transform: scale(1.1);

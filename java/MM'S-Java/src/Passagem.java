@@ -4,13 +4,13 @@ public class Passagem {
   private String partida;
   private String destino;
   private String data_hora;
-  private CompanhiaAerea companhia;
+  private Companhia companhia;
 
   public Passagem() {
   }
 
   public void compraPassagem(Cliente cliente, String partida, String destino, String data_hora,
-      CompanhiaAerea companhiaAerea) {
+      Companhia companhiaAerea) {
 
     this.user = cliente;
     this.destino = destino;
@@ -22,7 +22,7 @@ public class Passagem {
   public String consulta() {
 
     return "USUARIO: " + this.user.getNome() + " || " + " Origem:  " + this.partida + " || " + " DESTINO: "
-        + this.destino + " || " + "Companhia: " + this.companhia.getNome();
+        + this.destino + " || " + "DATA: " + this.data_hora + "Companhia: " + this.companhia.getNome();
   }
 
   public Cliente getUser() {
@@ -57,11 +57,11 @@ public class Passagem {
     this.data_hora = data_hora;
   }
 
-  public CompanhiaAerea getCompanhia() {
+  public Companhia getCompanhia() {
     return this.companhia;
   }
 
-  public void setCompanhia(CompanhiaAerea companhia) {
+  public void setCompanhia(Companhia companhia) {
     this.companhia = companhia;
   }
 

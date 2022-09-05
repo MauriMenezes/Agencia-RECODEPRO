@@ -8,7 +8,7 @@ public class CompanhiaDAO {
   Connection conn = null;
   PreparedStatement pstm = null;
 
-  public void saveCompanhia(CompanhiaAerea companhia) {
+  public void saveCompanhia(Companhia companhia) {
 
     // Isso é uma sql comum, os ? são os parâmetros que nós vamos adicionar no banco
     // de dados
@@ -85,7 +85,7 @@ public class CompanhiaDAO {
     }
   }
 
-  public void update(CompanhiaAerea companhia) {
+  public void update(Companhia companhia) {
 
     // Isso é uma sql comum, os ? são os parâmetros que nós vamos adicionar no banco
     // de dados

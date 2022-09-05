@@ -1,12 +1,12 @@
-public class CompanhiaAerea {
+public class Companhia {
 
   private int id;
   private String nome;
 
-  public CompanhiaAerea() {
+  public Companhia() {
   }
 
-  public CompanhiaAerea(int id, String nome) {
+  public Companhia(int id, String nome) {
     this.id = id;
     this.nome = nome;
   }

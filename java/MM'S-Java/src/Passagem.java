@@ -1,5 +1,5 @@
 public class Passagem {
-
+  private int id;
   private Cliente user;
   private String partida;
   private String destino;
@@ -63,6 +63,14 @@ public class Passagem {
 
   public void setCompanhia(CompanhiaAerea companhia) {
     this.companhia = companhia;
+  }
+
+  public int getId() {
+    return this.id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
   }
 
 }

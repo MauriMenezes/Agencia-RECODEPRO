@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+    <a href="../index.html"><i class="fa-solid fa-arrow-left icon-volt"></i></a>
+    <main class="p-5">
+      <div class="container py-5">
+        <div class="row mt-5 mr-auto ml-auto">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 card bg-light p-5 card-form">
+            <form action="../verify" method="post">
+            
+            
+            
+              <label for="" class="form-label">Email </label>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="bg-light"
+                  placeholder="Digite seu Email"
+                  name="email"
+                  required="required"
+                />
+              </div>
+              <label for="" class="form-label">senha</label>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="bg-light"
+                  placeholder="Digite sua senha"
+                  name="senha"
+                  required="required"
+                />
+                <div class="form-text">
+                  A senha deve conter no minino 6 números.
+                </div>
+              </div>
+              <div class="form-check form-switch mb-2">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="M-Conectado"
+                  checked
+                />
+                <label class="form-check-label" for="M-Conectado"
+                  >Mantenha-me conectado</label
+                >
+              </div>
+              <div class="row">
+                <input type="submit" class="btn btn-success">
+              </div>
+              <div class="col text-center mt-3">
+                <a href="cadastro.html" class="btn btn-success mt-1"
+                  >cadastrar</a
+                >
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-center p-2">
+      <a href="https://github.com/Squad-31/Alfa">
+        <img src="../assets/img/Github-logo.png" alt="" />
+      </a>
+      <p class="text-white mb-0 mx-3" style="display: inline-block">
+        ₢-Alfa.Beto corporation
+      </p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
